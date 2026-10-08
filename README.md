@@ -1,3 +1,13 @@
+> [!IMPORTANT]
+> **ship is now part of [homebase](https://github.com/semenov/homebase).** `homebase deploy` is
+> `ship`; `homebase server add` is `ship init`; `ship status`, `logs` and `env` are
+> `homebase status`, `logs` and `env` with `--prod`. homebase reads your `ship.toml` and ship's
+> default server, and apps deployed with ship keep running. This repository is archived.
+>
+> ```sh
+> brew install semenov/tap/homebase
+> ```
+
 <p align="center">
   <img src="docs/logo.svg" width="160" alt="ship logo">
 </p>
